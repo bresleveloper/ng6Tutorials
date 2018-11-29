@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-add-form',
-  templateUrl: './add-form.component.html',
-  styleUrls: ['./add-form.component.css'],
+  selector: 'app-addr-form',
+  templateUrl: './addr-form.component.html',
+  styleUrls: ['./addr-form.component.css'],
 })
-export class AddFormComponent {
+export class AddrFormComponent {
   addressForm = this.fb.group({
     company: null,
     firstName: [null, Validators.required],

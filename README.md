@@ -17,9 +17,9 @@ TS
 3. [create github user](https://github.com/ "github")
 4. create new repo, and copy and do whatever it tells you
 5. `ng add @angular/material`
-6. `ng generate @angular/material:material-dashboard --name myDashboard`, go see [ng material schematics](https://material.angular.io/guide/schematics)
-
-6 - install augury, show, ppt 3.4
+6. `ng generate @angular/material:material-dashboard --name 3_material/myDashboard`, go see [ng material schematics](https://material.angular.io/guide/schematics)
+7. `ng generate @angular/material:material-address-form --name 3_material/addForm`
+8. install augury, show, ppt 3.4
 7 - view encapsulation, show comp with ppt
 8 - bingings, ppt 4, do examples
 9 - life cycle https://i.stack.imgur.com/yzaYJ.png, talk, ppt5
