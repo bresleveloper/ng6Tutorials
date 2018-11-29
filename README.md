@@ -4,28 +4,20 @@ TS
 
 # lession 2 - ng basics
 
-1 - node, npm, cli, vscode, install all those [on main cpu, students]
-
-2 - create new proj, view files, html, app-root, ng serve, change [all students]
-
-3 - ppt until 2.3
-
-4 - 2 comps, service (comm, di), directive (like color changer), comp with no other files
-    *templating with ngFor
-
-5 - ppt until 3.3
+1. node, npm, cli, vscode, install all those [on main cpu, students]
+2. create new proj, view files, html, app-root, ng serve, change [all students]
+3. ppt until 2.3
+4. 2 comps, service (comm, di), directive (like color changer), comp with no other files, *templating with ngFor
+5. ppt until 3.3
 
 # lession 3 - git, ngh, angular material
 
-download git!
-
-`git config --global user.name "Mona Lisa"`
-
-then goto https://github.com/ and create a user
-
-create new repo, and copy and do whatever it tells you
-
-
+1. download git!
+2. `git config --global user.name "Mona Lisa"`
+3. [create github user](https://github.com/ "github")
+4. create new repo, and copy and do whatever it tells you
+5. `ng add @angular/material`
+6. `ng generate @angular/material:material-dashboard --name myDashboard`, go see [ng material schematics](https://material.angular.io/guide/schematics)
 
 6 - install augury, show, ppt 3.4
 7 - view encapsulation, show comp with ppt
