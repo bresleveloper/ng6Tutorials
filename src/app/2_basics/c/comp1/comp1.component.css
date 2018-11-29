@@ -1,0 +1,2 @@
+.flexy{display: flex}
+.flexy>div{width: 10%; border: 1px solid violet; padding: 2px;}
