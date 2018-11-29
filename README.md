@@ -2,7 +2,7 @@
 
 TS
 
-#lession 2 - ng basics
+# lession 2 - ng basics
 
 1 - node, npm, cli, vscode, install all those [on main cpu, students]
 
@@ -15,9 +15,11 @@ TS
 
 5 - ppt until 3.3
 
-#lession 3 - git, ngh, angular material
+# lession 3 - git, ngh, angular material
 
 download git!
+
+`git config --global user.name "Mona Lisa"`
 
 then goto https://github.com/ and create a user
 
