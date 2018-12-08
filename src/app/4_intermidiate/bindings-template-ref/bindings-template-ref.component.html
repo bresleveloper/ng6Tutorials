@@ -1,0 +1,14 @@
+<p>
+  bindings-template-ref works!
+</p>
+
+<input #phone placeholder="phone"/>
+<br>
+<button (click)="call(phone.value)">call phone</button>
+
+<br>
+<br>
+
+<input ref-fax placeholder="fax"/>
+<br>
+<button (click)="call(fax.value)">call fax</button>

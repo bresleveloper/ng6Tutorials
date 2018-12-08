@@ -1,0 +1,46 @@
+<p>
+  bindings-basics works!
+</p>
+
+<h2>let me bind a title here (one-way data-bind)</h2>
+<h1>{{titleOne}}</h1>
+<br/><br/>
+
+<h2>let me bind html here (one-way data-bind)</h2>
+<div [innerHTML]="htmlOne"></div>
+<br/><br/>
+
+<h2 (click)="someFn()" [style.cursor]="'pointer'"> you can click me! (one-way event-bind)</h2>
+<br/><br/>
+
+
+<h2>time for 2-way binding</h2>
+<div>text:<br>{{htmlTwo}}</div>
+<br><br>html:<br>
+<div [innerHTML]="htmlTwo"></div>
+<div><br/> <input [(ngModel)]="htmlTwo"/> </div>
+<br/><br/>
+
+
+<!-- 3. bingings: ngModel, ngClass => value, exp, function , event (click) => fn-->
+
+<h2>advanced and classes</h2>
+<div [class.activator_violet]="isVioletActive">
+    <input type="checkbox" (click)="isVioletActive = !isVioletActive"/>
+    <span>am i active?</span>
+</div>
+<br/><br/>
+<div  [style.font-size.em]="generateem()" [style.color]="generatecolor()">I am colorful and enlarged</div>
+
+<br/><br/>
+<h3 [ngStyle]="oStyles">
+  <span>lets use styles object</span>
+  <br>
+  <a target="_blank" href="https://alligator.io/angular/style-binding-ngstyle-angular/">take a look at that</a>
+</h3>
+<h3 [ngClass]="oClasses"> 
+    <span>lets use classes object</span>
+    <br>
+    <a target="_blank" href="https://alligator.io/angular/class-binding-ngclass-angular/">take a look at that2</a>
+</h3>
+
