@@ -13,7 +13,10 @@
 <h2 (click)="someFn()" [style.cursor]="'pointer'"> you can click me! (one-way event-bind)</h2>
 <br/><br/>
 
-
+<!-- must add 
+    import { FormsModule } from '@angular/forms'; 
+    imports:[..., FormsModule]
+-->
 <h2>time for 2-way binding</h2>
 <div>text:<br>{{htmlTwo}}</div>
 <br><br>html:<br>
