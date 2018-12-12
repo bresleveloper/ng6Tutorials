@@ -13,3 +13,5 @@ export class AppComponent {
 //ng build --prod --output-path docs --base-href ng6Tutorials
 
 //ng build --output-path docs --base-href ng6Tutorials
+
+//https://bresleveloper.github.io/ng6Tutorials/docs
