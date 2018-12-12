@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Input, SimpleChange, SimpleChanges ,OnChanges, DoCheck,AfterContentInit, AfterContentChecked,AfterViewInit, AfterViewChecked, OnDestroy } from '@angular/core';
+import { Input, SimpleChange, SimpleChanges ,
+    OnChanges, DoCheck,AfterContentInit, AfterContentChecked,
+    AfterViewInit, AfterViewChecked, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'nested-zaidy',
