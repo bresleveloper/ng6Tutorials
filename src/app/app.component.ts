@@ -8,3 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ng7jonny';
 }
+
+
+//ng build --prod --output-path docs --base-href ng6Tutorials
+
+//ng build --output-path docs --base-href ng6Tutorials

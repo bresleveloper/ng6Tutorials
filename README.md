@@ -29,7 +29,8 @@ TS
 1. 2 way bindings Component-Template, show bindings-basics comp, ppt 4, 4.1
 2. template bindings, show bindings-template comp , ppt 4.2
 3. nested components - do 3 lvls, do all events, show image, ng-content + select, do ppt 5
-    [life cycle](https://i.stack.imgur.com/yzaYJ.png), talk, do with the above
+    [life cycle](https://i.stack.imgur.com/yzaYJ.png)
+    [advanced ng-conttent](https://blog.angular-university.io/angular-ng-content/)
 4. directives - 3 types, ppt 6, do it all with HW [6.2.3 bind color property]
 5. ppt 7 - pipes, do it all with HW
 
