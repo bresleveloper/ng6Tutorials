@@ -612,7 +612,7 @@ var MyDashboardComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".activator_violet{color: blueviolet; font-weight: bold; font-size: 1.2em;}\r\n\r\n\r\n.aquaColor{color: aqua}\r\n\r\n\r\n.blackBG{background: black;}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvNF9pbnRlcm1pZGlhdGUvYmluZGluZ3MtYmFzaWNzL2JpbmRpbmdzLWJhc2ljcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGtCQUFrQixrQkFBa0IsQ0FBQyxrQkFBa0IsQ0FBQyxpQkFBaUIsQ0FBQzs7O0FBRzFFLFdBQVcsV0FBVyxDQUFDOzs7QUFDdkIsU0FBUyxrQkFBa0IsQ0FBQyIsImZpbGUiOiJzcmMvYXBwLzRfaW50ZXJtaWRpYXRlL2JpbmRpbmdzLWJhc2ljcy9iaW5kaW5ncy1iYXNpY3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hY3RpdmF0b3JfdmlvbGV0e2NvbG9yOiBibHVldmlvbGV0OyBmb250LXdlaWdodDogYm9sZDsgZm9udC1zaXplOiAxLjJlbTt9XHJcblxyXG5cclxuLmFxdWFDb2xvcntjb2xvcjogYXF1YX1cclxuLmJsYWNrQkd7YmFja2dyb3VuZDogYmxhY2s7fSJdfQ== */"
+module.exports = "\r\n\r\n\r\n.activator_violet{color: blueviolet; font-weight: bold; font-size: 1.2em;}\r\n\r\n\r\n.aquaColor{color: aqua}\r\n\r\n\r\n.blackBG{background: black;}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvNF9pbnRlcm1pZGlhdGUvYmluZGluZ3MtYmFzaWNzL2JpbmRpbmdzLWJhc2ljcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUdBLGtCQUFrQixrQkFBa0IsQ0FBQyxrQkFBa0IsQ0FBQyxpQkFBaUIsQ0FBQzs7O0FBRzFFLFdBQVcsV0FBVyxDQUFDOzs7QUFDdkIsU0FBUyxrQkFBa0IsQ0FBQyIsImZpbGUiOiJzcmMvYXBwLzRfaW50ZXJtaWRpYXRlL2JpbmRpbmdzLWJhc2ljcy9iaW5kaW5ncy1iYXNpY3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5cclxuXHJcbi5hY3RpdmF0b3JfdmlvbGV0e2NvbG9yOiBibHVldmlvbGV0OyBmb250LXdlaWdodDogYm9sZDsgZm9udC1zaXplOiAxLjJlbTt9XHJcblxyXG5cclxuLmFxdWFDb2xvcntjb2xvcjogYXF1YX1cclxuLmJsYWNrQkd7YmFja2dyb3VuZDogYmxhY2s7fSJdfQ== */"
 
 /***/ }),
 
@@ -623,7 +623,7 @@ module.exports = ".activator_violet{color: blueviolet; font-weight: bold; font-s
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  bindings-basics works!\n</p>\n\n<h2>let me bind a title here (one-way data-bind)</h2>\n<h1>{{titleOne}}</h1>\n<br/><br/>\n\n<h2>let me bind html here (one-way data-bind)</h2>\n<div [innerHTML]=\"htmlOne\"></div>\n<br/><br/>\n\n<h2 (click)=\"someFn()\" [style.cursor]=\"'pointer'\"> you can click me! (one-way event-bind)</h2>\n<br/><br/>\n\n\n<h2>time for 2-way binding</h2>\n<div>text:<br>{{htmlTwo}}</div>\n<br><br>html:<br>\n<div [innerHTML]=\"htmlTwo\"></div>\n<div><br/> <input [(ngModel)]=\"htmlTwo\"/> </div>\n<br/><br/>\n\n\n<!-- 3. bingings: ngModel, ngClass => value, exp, function , event (click) => fn-->\n\n<h2>advanced and classes</h2>\n<div [class.activator_violet]=\"isVioletActive\">\n    <input type=\"checkbox\" (click)=\"isVioletActive = !isVioletActive\"/>\n    <span>am i active?</span>\n</div>\n<br/><br/>\n<div  [style.font-size.em]=\"generateem()\" [style.color]=\"generatecolor()\">I am colorful and enlarged</div>\n\n<br/><br/>\n<h3 [ngStyle]=\"oStyles\">\n  <span>lets use styles object</span>\n  <br>\n  <a target=\"_blank\" href=\"https://alligator.io/angular/style-binding-ngstyle-angular/\">take a look at that</a>\n</h3>\n<h3 [ngClass]=\"oClasses\"> \n    <span>lets use classes object</span>\n    <br>\n    <a target=\"_blank\" href=\"https://alligator.io/angular/class-binding-ngclass-angular/\">take a look at that2</a>\n</h3>\n\n"
+module.exports = "<p>\r\n  bindings-basics works!\r\n</p>\r\n\r\n<h2>let me bind a title here (one-way data-bind)</h2>\r\n<h1>{{titleOne}}</h1>\r\n<br/><br/>\r\n\r\n<h2>let me bind html here (one-way data-bind)</h2>\r\n<div [innerHTML]=\"htmlOne\"></div>\r\n<br/><br/>\r\n\r\n<h2 (click)=\"someFn()\" [style.cursor]=\"'pointer'\"> you can click me! (one-way event-bind)</h2>\r\n<br/><br/>\r\n\r\n<!-- must add \r\n    import { FormsModule } from '@angular/forms'; \r\n    imports:[..., FormsModule]\r\n-->\r\n<h2>time for 2-way binding</h2>\r\n<div>text:<br>{{htmlTwo}}</div>\r\n<br><br>html:<br>\r\n<div [innerHTML]=\"htmlTwo\"></div>\r\n<div><br/> <input [(ngModel)]=\"htmlTwo\"/> </div>\r\n<br/><br/>\r\n\r\n\r\n<!-- 3. bingings: ngModel, ngClass => value, exp, function , event (click) => fn-->\r\n\r\n<h2>advanced and classes</h2>\r\n<div [class.activator_violet]=\"isVioletActive\">\r\n    <input type=\"checkbox\" (click)=\"isVioletActive = !isVioletActive\"/>\r\n    <span>am i active?</span>\r\n</div>\r\n<br/><br/>\r\n<div  [style.font-size.em]=\"generateem()\" [style.color]=\"generatecolor()\">I am colorful and enlarged</div>\r\n\r\n<br/><br/>\r\n<h3 [ngStyle]=\"oStyles\">\r\n  <span>lets use styles object</span>\r\n  <br>\r\n  <a target=\"_blank\" href=\"https://alligator.io/angular/style-binding-ngstyle-angular/\">take a look at that</a>\r\n</h3>\r\n<h3 [ngClass]=\"oClasses\"> \r\n    <span>lets use classes object</span>\r\n    <br>\r\n    <a target=\"_blank\" href=\"https://alligator.io/angular/class-binding-ngclass-angular/\">take a look at that2</a>\r\n</h3>\r\n\r\n"
 
 /***/ }),
 
@@ -706,7 +706,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  bindings-template-ref works!\n</p>\n\n<input #phone placeholder=\"phone\"/>\n<br>\n<button (click)=\"call(phone.value)\">call phone</button>\n\n<br>\n<br>\n\n<input ref-fax placeholder=\"fax\"/>\n<br>\n<button (click)=\"call(fax.value)\">call fax</button>\n"
+module.exports = "<p>\r\n  bindings-template-ref works!\r\n</p>\r\n\r\n<input #phone placeholder=\"phone i r platz\"/>\r\n<br>\r\n<button (click)=\"call(phone.value)\">call phone</button>\r\n\r\n<br>\r\n<br>\r\n\r\n<input ref-fax placeholder=\"fax\"/>\r\n<br>\r\n<button (click)=\"call(fax.value)\">call fax</button>\r\n"
 
 /***/ }),
 
@@ -772,7 +772,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  ingale works!\n</p>\n\n<input type=\"text\" [(ngModel)]=\"taty\"/>\n<br><br>\n<div>taty says: {{taty}}</div>\n\n\n<br><br>\n<div>\n  <h5>here is the ng-content</h5>\n  <ng-content></ng-content>\n</div>\n<div>\n  <h5>if i have an \"i\" elm i use it here</h5>\n  <ng-content select=\"i\"></ng-content>\n  \n</div>\n<br><br>\n"
+module.exports = "\r\n<p>\r\n  ingale works!\r\n</p>\r\n<!--  this is for the 2-way binding of lession 5-->\r\n<input type=\"text\" [(ngModel)]=\"taty\"/>\r\n<br><br>\r\n<div>taty says: {{taty}}</div>\r\n\r\n\r\n<br><br>\r\n<div>\r\n  <h5>here is the ng-content</h5>\r\n  <ng-content></ng-content>\r\n</div>\r\n<div>\r\n  <h5>if i have an \"i\" elm i use it here</h5>\r\n  <ng-content select=\"i\"></ng-content>\r\n  \r\n</div>\r\n<br><br>\r\n"
 
 /***/ }),
 
@@ -800,8 +800,20 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var IngaleComponent = /** @class */ (function () {
     function IngaleComponent() {
         this.something = "edit something";
+        this.tatyChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         console.log('IngaleComponent constructor');
     }
+    Object.defineProperty(IngaleComponent.prototype, "taty", {
+        get: function () {
+            return this.tatyValue;
+        },
+        set: function (val) {
+            this.tatyValue = val;
+            this.tatyChange.emit(this.tatyValue);
+        },
+        enumerable: true,
+        configurable: true
+    });
     IngaleComponent.prototype.ngOnChanges = function (changes) { console.log('IngaleComponent ngOnChanges'); console.log(changes); };
     IngaleComponent.prototype.ngOnInit = function () { console.log('IngaleComponent ngOnInit'); };
     IngaleComponent.prototype.ngDoCheck = function () { console.log('IngaleComponent ngDoCheck'); };
@@ -811,9 +823,14 @@ var IngaleComponent = /** @class */ (function () {
     IngaleComponent.prototype.ngAfterViewChecked = function () { console.log('IngaleComponent ngAfterViewChecked'); };
     IngaleComponent.prototype.ngOnDestroy = function () { console.log('IngaleComponent ngOnDestroy'); };
     __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", Object)
+    ], IngaleComponent.prototype, "tatyChange", void 0);
+    __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", String)
-    ], IngaleComponent.prototype, "taty", void 0);
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], IngaleComponent.prototype, "taty", null);
     IngaleComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'nested-ingale',
@@ -847,7 +864,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  taty works!\n</p>\n\n<input type=\"text\" [(ngModel)]=\"tatything\"/>\n\n<nested-ingale [taty]=\"tatything\">\n  <div><b>luke</b>, i am ur father</div>\n  <div>ohh nooooo!!!</div>\n</nested-ingale>\n\n<nested-ingale [taty]=\"tatything\">\n  <div><b>luke</b>, i am ur father</div>\n  <i>ohh noooooo!!!!!</i>\n</nested-ingale>\n\n"
+module.exports = "<p>\r\n  taty works!\r\n</p>\r\n\r\n<input type=\"text\" [(ngModel)]=\"tatything\"/>\r\n\r\n<!-- <nested-ingale [taty]=\"tatything\" (tatyChange)=\"onTatyChange($event)\"></nested-ingale> -->\r\n\r\n<nested-ingale [taty]=\"tatything\" (tatyChange)=\"tatything=$event\">\r\n  <div><b>luke</b>, i am ur father</div>\r\n  <div>ohh nooooo!!!</div>\r\n</nested-ingale>\r\n\r\n<nested-ingale [(taty)]=\"tatything\">\r\n  <div><b>luke</b>, i am ur father</div>\r\n  <i>ohh noooooo!!!!!</i>\r\n</nested-ingale>\r\n\r\n"
 
 /***/ }),
 
@@ -969,6 +986,260 @@ var ZaidyComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/5_twoWayMethods/hover-directive.directive.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/5_twoWayMethods/hover-directive.directive.ts ***!
+  \**************************************************************/
+/*! exports provided: HoverDirectiveDirective, HighlightDirective */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HoverDirectiveDirective", function() { return HoverDirectiveDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HighlightDirective", function() { return HighlightDirective; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HoverDirectiveDirective = /** @class */ (function () {
+    function HoverDirectiveDirective() {
+    }
+    HoverDirectiveDirective = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"])({
+            selector: '[appHoverDirective]'
+        }),
+        __metadata("design:paramtypes", [])
+    ], HoverDirectiveDirective);
+    return HoverDirectiveDirective;
+}());
+
+var HighlightDirective = /** @class */ (function () {
+    function HighlightDirective(el) {
+        this._defaultColor = 'blue';
+        this.el = el.nativeElement;
+    }
+    HighlightDirective.prototype.onMouseEnter = function () { this.highlight(this.highlightColor || this._defaultColor); };
+    HighlightDirective.prototype.onMouseLeave = function () { this.highlight(null); };
+    HighlightDirective.prototype.highlight = function (color) {
+        this.el.style.backgroundColor = color;
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('myHighlight'),
+        __metadata("design:type", String)
+    ], HighlightDirective.prototype, "highlightColor", void 0);
+    HighlightDirective = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"])({
+            selector: '[myHighlight]',
+            host: {
+                '(mouseenter)': 'onMouseEnter()',
+                '(mouseleave)': 'onMouseLeave()'
+            }
+        }),
+        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]])
+    ], HighlightDirective);
+    return HighlightDirective;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/5_twoWayMethods/la-compa/la-compa.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/5_twoWayMethods/la-compa/la-compa.component.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".forhover{\r\n    padding: 15px;\r\n    border: 1px pink dotted;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvNV90d29XYXlNZXRob2RzL2xhLWNvbXBhL2xhLWNvbXBhLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2Qsd0JBQXdCO0NBQzNCIiwiZmlsZSI6InNyYy9hcHAvNV90d29XYXlNZXRob2RzL2xhLWNvbXBhL2xhLWNvbXBhLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9yaG92ZXJ7XHJcbiAgICBwYWRkaW5nOiAxNXB4O1xyXG4gICAgYm9yZGVyOiAxcHggcGluayBkb3R0ZWQ7XHJcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/5_twoWayMethods/la-compa/la-compa.component.html":
+/*!******************************************************************!*\
+  !*** ./src/app/5_twoWayMethods/la-compa/la-compa.component.html ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  la-compa works!\n</p>\n\n<div class=\"forhover\" myHighlight>\n  hover me plz!\n</div>\n<div class=\"forhover\" myHighlight=\"violet\">\n  hover me plz! I set my own color of violet\n</div>\n\n<div class=\"forhover\" >\n  <input #inputPromise /><br>\n  <button (click)=\"promiseSomthing(inputPromise.value)\"> click for a promise </button> <br>\n  <div id=\"whatPromise\"></div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/5_twoWayMethods/la-compa/la-compa.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/5_twoWayMethods/la-compa/la-compa.component.ts ***!
+  \****************************************************************/
+/*! exports provided: LaCompaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LaCompaComponent", function() { return LaCompaComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LaCompaComponent = /** @class */ (function () {
+    function LaCompaComponent() {
+    }
+    LaCompaComponent.prototype.ngOnInit = function () {
+    };
+    LaCompaComponent.prototype.promiseSomthing = function (txt) {
+        var p = new Promise(function (resolve, reject) {
+            //lets ajax with txt
+            setTimeout(function () {
+                var x = Math.random();
+                console.log(x);
+                if (x > 0.5) {
+                    resolve('foo promise to ' + txt);
+                }
+                else {
+                    reject({ failed: { reason: "bla bla wont promise " + txt } });
+                }
+            }, 300);
+        });
+        p.then(function (successValue) {
+            console.log(successValue);
+            // expected output: "foo"
+            document.getElementById("whatPromise").innerHTML = successValue;
+        }, function (failValue) {
+            console.log(failValue);
+            // expected output: "foo"
+            document.getElementById("whatPromise").innerHTML = failValue['failed']['reason'];
+        });
+        console.log(p);
+        // expected output: [object Promise]
+    };
+    LaCompaComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-la-compa',
+            template: __webpack_require__(/*! ./la-compa.component.html */ "./src/app/5_twoWayMethods/la-compa/la-compa.component.html"),
+            styles: [__webpack_require__(/*! ./la-compa.component.css */ "./src/app/5_twoWayMethods/la-compa/la-compa.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], LaCompaComponent);
+    return LaCompaComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/5_twoWayMethods/obsy/obsy.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/5_twoWayMethods/obsy/obsy.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwLzVfdHdvV2F5TWV0aG9kcy9vYnN5L29ic3kuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/5_twoWayMethods/obsy/obsy.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/5_twoWayMethods/obsy/obsy.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  obsy works!\n</p>\n\n<div>\n  do see <a href=\"https://alligator.io/angular/real-time-search-angular-rxjs/\" target=\"_blank\">this</a>\n</div>\n\n<br>\n<br>\n\n<br>\n<div>\n  <input (keyup)=\"searchTerm$.next($event.target.value)\">\n\n  <ul>\n    <li *ngFor=\"let result of results\">\n        {{ result }}\n    </li>\n  </ul>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/5_twoWayMethods/obsy/obsy.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/5_twoWayMethods/obsy/obsy.component.ts ***!
+  \********************************************************/
+/*! exports provided: SearchService, ObsyComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchService", function() { return SearchService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ObsyComponent", function() { return ObsyComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//import { Subject, Observable } from 'rxjs/Subject'; or 'rxjs/Observable';
+
+/*
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/distinctUntilChanged';
+import 'rxjs/add/operator/switchMap';
+*/
+
+//must be in providers, must be b4 comp
+var SearchService = /** @class */ (function () {
+    function SearchService() {
+        this.terms = ['אריאל', 'יעקב', 'אמיר', 'אליק', 'אוליסה', 'יהודית', 'דניאל', 'לירן',];
+    }
+    SearchService.prototype.search = function (searchTerm) {
+        var _this = this;
+        return searchTerm.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["debounceTime"])(400), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["distinctUntilChanged"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (searchTerm) { return _this.searchEntries(searchTerm); }));
+    };
+    SearchService.prototype.searchEntries = function (term) {
+        return this.terms.filter(function (t) { return t.startsWith(term); });
+    };
+    SearchService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [])
+    ], SearchService);
+    return SearchService;
+}());
+
+var ObsyComponent = /** @class */ (function () {
+    function ObsyComponent(searchService) {
+        var _this = this;
+        this.searchService = searchService;
+        this.searchTerm$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        this.searchService.search(this.searchTerm$)
+            .subscribe(function (results) {
+            _this.results = results;
+        });
+    }
+    ObsyComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-obsy',
+            template: __webpack_require__(/*! ./obsy.component.html */ "./src/app/5_twoWayMethods/obsy/obsy.component.html"),
+            styles: [__webpack_require__(/*! ./obsy.component.css */ "./src/app/5_twoWayMethods/obsy/obsy.component.css")],
+            providers: [SearchService]
+        }),
+        __metadata("design:paramtypes", [SearchService])
+    ], ObsyComponent);
+    return ObsyComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/app.component.css":
 /*!***********************************!*\
   !*** ./src/app/app.component.css ***!
@@ -987,7 +1258,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  \n  <h1>\n    <span style=\"font-size:small\">root-component:</span>\n    Welcome to {{ title }}!\n  </h1>\n</div>\n\n\n<!-- lession 2\n<app-root-basics></app-root-basics>-->\n\n\n\n<!-- lession 3 - material dashboard-->\n<!-- <app-my-dashboard></app-my-dashboard>-->\n<!-- <app-addr-form></app-addr-form>-->\n\n\n<!-- lession 4 -  bindings-basics\n<bindings-basics></bindings-basics>-->\n<!-- lession 4 -  template ref\n<bindings-template-ref></bindings-template-ref>-->\n<!-- lession 4 -  nested and life cycle-->\n<nested-zaidy></nested-zaidy>\n\n<!-- lession 3 - nested comps\n<nested-zaidy></nested-zaidy>-->\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  \n  <h1>\n    <span style=\"font-size:small\">root-component:</span>\n    Welcome to {{ title }}!\n  </h1>\n</div>\n\n\n<!-- lession 2\n<app-root-basics></app-root-basics>-->\n\n\n\n<!-- lession 3 - material dashboard-->\n<!-- <app-my-dashboard></app-my-dashboard>-->\n<!-- <app-addr-form></app-addr-form>-->\n\n\n<!-- lession 4 -  bindings-basics\n<bindings-basics></bindings-basics>-->\n<!-- lession 4 -  template ref\n<bindings-template-ref></bindings-template-ref>-->\n<!-- lession 4 -  nested and life cycle\n<nested-zaidy></nested-zaidy>-->\n\n<!-- lession 5 - two way stuff - hover component\n<app-la-compa></app-la-compa>-->\n<!-- lession 5 -  two way bindings components, uncomments in ingale\n<nested-zaidy></nested-zaidy>-->\n<!-- lession 5 - services again\n<app-root-basics></app-root-basics>-->\n<!-- lession 5 - promise\n<app-la-compa></app-la-compa>-->\n<!-- lession 5 - observable-->\n<app-obsy></app-obsy>"
 
 /***/ }),
 
@@ -1023,8 +1294,9 @@ var AppComponent = /** @class */ (function () {
     return AppComponent;
 }());
 
-//ng build --prod --base-href https://bresleveloper.github.io/ng6Tutorials/
-//ngh --branch gh-pages
+//ng build --prod --output-path docs --base-href ng6Tutorials
+//ng build --output-path docs --base-href ng6Tutorials
+//https://bresleveloper.github.io/ng6Tutorials/docs
 
 
 /***/ }),
@@ -1045,12 +1317,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_2_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/2.module */ "./src/app/modules/2.module.ts");
 /* harmony import */ var _modules_3_mat_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/3.mat.module */ "./src/app/modules/3.mat.module.ts");
 /* harmony import */ var _modules_4_intern_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/4.intern.module */ "./src/app/modules/4.intern.module.ts");
+/* harmony import */ var _modules_5_twoWayAdv_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/5.twoWayAdv.module */ "./src/app/modules/5.twoWayAdv.module.ts");
+/* harmony import */ var _5_twoWayMethods_obsy_obsy_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./5_twoWayMethods/obsy/obsy.component */ "./src/app/5_twoWayMethods/obsy/obsy.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -1064,12 +1340,14 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+                _5_twoWayMethods_obsy_obsy_component__WEBPACK_IMPORTED_MODULE_7__["ObsyComponent"],
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _modules_2_module__WEBPACK_IMPORTED_MODULE_3__["Module_2_basics"],
                 _modules_3_mat_module__WEBPACK_IMPORTED_MODULE_4__["Module_3_Mat"],
-                _modules_4_intern_module__WEBPACK_IMPORTED_MODULE_5__["Module_3_Intern"],
+                _modules_4_intern_module__WEBPACK_IMPORTED_MODULE_5__["Module_4_Intern"],
+                _modules_5_twoWayAdv_module__WEBPACK_IMPORTED_MODULE_6__["Module_5_twoWayAdv"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
@@ -1226,12 +1504,12 @@ var Module_3_Mat = /** @class */ (function () {
 /*!********************************************!*\
   !*** ./src/app/modules/4.intern.module.ts ***!
   \********************************************/
-/*! exports provided: Module_3_Intern */
+/*! exports provided: Module_4_Intern */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Module_3_Intern", function() { return Module_3_Intern; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Module_4_Intern", function() { return Module_4_Intern; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
@@ -1254,10 +1532,10 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-var Module_3_Intern = /** @class */ (function () {
-    function Module_3_Intern() {
+var Module_4_Intern = /** @class */ (function () {
+    function Module_4_Intern() {
     }
-    Module_3_Intern = __decorate([
+    Module_4_Intern = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             declarations: [
                 _4_intermidiate_nested_ingale_ingale_component__WEBPACK_IMPORTED_MODULE_3__["IngaleComponent"],
@@ -1279,8 +1557,63 @@ var Module_3_Intern = /** @class */ (function () {
                 _4_intermidiate_bindings_template_ref_bindings_template_ref_component__WEBPACK_IMPORTED_MODULE_7__["BindingsTemplateRefComponent"],
             ],
         })
-    ], Module_3_Intern);
-    return Module_3_Intern;
+    ], Module_4_Intern);
+    return Module_4_Intern;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/5.twoWayAdv.module.ts":
+/*!***********************************************!*\
+  !*** ./src/app/modules/5.twoWayAdv.module.ts ***!
+  \***********************************************/
+/*! exports provided: Module_5_twoWayAdv */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Module_5_twoWayAdv", function() { return Module_5_twoWayAdv; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _5_twoWayMethods_hover_directive_directive__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../5_twoWayMethods/hover-directive.directive */ "./src/app/5_twoWayMethods/hover-directive.directive.ts");
+/* harmony import */ var _5_twoWayMethods_la_compa_la_compa_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../5_twoWayMethods/la-compa/la-compa.component */ "./src/app/5_twoWayMethods/la-compa/la-compa.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var Module_5_twoWayAdv = /** @class */ (function () {
+    function Module_5_twoWayAdv() {
+    }
+    Module_5_twoWayAdv = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            declarations: [
+                _5_twoWayMethods_hover_directive_directive__WEBPACK_IMPORTED_MODULE_3__["HoverDirectiveDirective"],
+                _5_twoWayMethods_la_compa_la_compa_component__WEBPACK_IMPORTED_MODULE_4__["LaCompaComponent"],
+                _5_twoWayMethods_hover_directive_directive__WEBPACK_IMPORTED_MODULE_3__["HighlightDirective"],
+            ],
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+            ],
+            exports: [
+                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                _5_twoWayMethods_hover_directive_directive__WEBPACK_IMPORTED_MODULE_3__["HoverDirectiveDirective"],
+                _5_twoWayMethods_la_compa_la_compa_component__WEBPACK_IMPORTED_MODULE_4__["LaCompaComponent"],
+                _5_twoWayMethods_hover_directive_directive__WEBPACK_IMPORTED_MODULE_3__["HighlightDirective"],
+            ],
+        })
+    ], Module_5_twoWayAdv);
+    return Module_5_twoWayAdv;
 }());
 
 
