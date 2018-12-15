@@ -46,4 +46,4 @@ import { BindingsTemplateRefComponent } from '../4_intermidiate/bindings-templat
 
   ],
 })
-export class Module_3_Intern { }
+export class Module_4_Intern { }

@@ -4,12 +4,14 @@
 
 <input type="text" [(ngModel)]="tatything"/>
 
-<nested-ingale>
+<!-- <nested-ingale [taty]="tatything" (tatyChange)="onTatyChange($event)"></nested-ingale> -->
+
+<nested-ingale [taty]="tatything" (tatyChange)="tatything=$event">
   <div><b>luke</b>, i am ur father</div>
   <div>ohh nooooo!!!</div>
 </nested-ingale>
 
-<nested-ingale [taty]="tatything">
+<nested-ingale [(taty)]="tatything">
   <div><b>luke</b>, i am ur father</div>
   <i>ohh noooooo!!!!!</i>
 </nested-ingale>

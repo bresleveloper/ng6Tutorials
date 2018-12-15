@@ -9,6 +9,7 @@ import { Input, SimpleChange, SimpleChanges ,
   styleUrls: ['./zaidy.component.css']
 })
 export class ZaidyComponent 
+
 implements OnInit, OnChanges, DoCheck,
 AfterContentInit, AfterContentChecked,
 AfterViewInit, AfterViewChecked, OnDestroy {

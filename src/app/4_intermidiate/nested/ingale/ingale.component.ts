@@ -1,4 +1,4 @@
-import { Component, Input, SimpleChange, SimpleChanges ,OnInit, OnChanges, DoCheck,AfterContentInit, AfterContentChecked,AfterViewInit, AfterViewChecked, OnDestroy } from '@angular/core';
+import { Component, Input, Output, EventEmitter, SimpleChanges ,OnInit, OnChanges, DoCheck,AfterContentInit, AfterContentChecked,AfterViewInit, AfterViewChecked, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'nested-ingale',
@@ -6,13 +6,26 @@ import { Component, Input, SimpleChange, SimpleChanges ,OnInit, OnChanges, DoChe
   styleUrls: ['./ingale.component.css']
 })
 export class IngaleComponent 
-          implements OnInit, OnChanges, DoCheck,
+          /*implements OnInit, OnChanges, DoCheck,
                       AfterContentInit, AfterContentChecked,
-                      AfterViewInit, AfterViewChecked, OnDestroy {
+                      AfterViewInit, AfterViewChecked, OnDestroy*/ {
 
   something="edit something"
-  @Input() taty:string
 
+  tatyValue : string;
+
+  @Output()
+  tatyChange = new EventEmitter<string>();
+
+  @Input()
+  get taty(){
+    return this.tatyValue;
+  }
+  set taty(val) {
+    this.tatyValue = val;
+    this.tatyChange.emit(this.tatyValue);
+  }
+  
   constructor() { console.log('IngaleComponent constructor'); }
   ngOnChanges(changes:SimpleChanges) { console.log('IngaleComponent ngOnChanges'); console.log(changes);  }
   ngOnInit() { console.log('IngaleComponent ngOnInit');  }
@@ -22,5 +35,4 @@ export class IngaleComponent
   ngAfterViewInit() { console.log('IngaleComponent ngAfterViewInit');  }
   ngAfterViewChecked() { console.log('IngaleComponent ngAfterViewChecked'); }
   ngOnDestroy() { console.log('IngaleComponent ngOnDestroy');  }
-
 }

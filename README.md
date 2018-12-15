@@ -16,11 +16,14 @@ TS
 2. `git config --global user.name "Mona Lisa"`
 3. [create github user](https://github.com/ "github")
 4. create new repo, and copy and do whatever it tells you
-5. `ng add @angular/material`
-6. `ng generate @angular/material:material-dashboard --name 3_material/myDashboard`, go see [ng material schematics](https://material.angular.io/guide/schematics)
-7. `ng generate @angular/material:material-address-form --name 3_material/addForm`
-8. install augury, show, ppt 3.4
-9. view encapsulation, show comp with ppt
+5. `ng build --output-path docs --base-href ng6Tutorials`
+6. in github -> settings -> github pages -> set as docs lib -> nav into pagesLink/docs
+    
+7. `ng add @angular/material`
+8. `ng generate @angular/material:material-dashboard --name 3_material/myDashboard`, go see [ng material schematics](https://material.angular.io/guide/schematics)
+9. `ng generate @angular/material:material-address-form --name 3_material/addForm`
+10. install augury, show, ppt 3.4
+11. view encapsulation, show comp with ppt
 
 # lession 4 - ppt 4-7 - bindings, template, nested comps, life cycle, pipes
 
@@ -31,14 +34,18 @@ TS
 3. nested components - do 3 lvls, do all events, show image, ng-content + select, do ppt 5
     [life cycle](https://i.stack.imgur.com/yzaYJ.png)
     [advanced ng-conttent](https://blog.angular-university.io/angular-ng-content/)
-4. directives - 3 types, ppt 6, do it all with HW [6.2.3 bind color property]
-5. ppt 7 - pipes, do it all with HW
+4. directives - 3 types, ppt 6, do it all with HW [6.2.3 bind color property]  ==>> was given as HW
 
-# lession 5 - ppt 8 - @Input/Output, do comps, HW
+# lession 5 - ppt 6-9 - directives, pipes, @Input/Output, services
 
-ppt 8 - @Input/Output, do comps, HW
+1. directives -> do HW, HoverDirective
+2. ppt 7 - pipes, talk, do it all with HW
+3. ppt 8 - @Input/Output, do nested again comps, HW
+4. ppt 9 - services, show lession 2 again with the services
+5. ppt 9.3 - Promise, show comp, HW
+6. Observalbes - do autocomplete, do ppt, HW
 
-# lession 6 - ppt 9 - services, do comps, HW
+# lession 6 - ppt 10 - routing, do comps, HW, how web/url works, LEARN AND MAKE LIFECYCLE
 
 ppt 9 - services, do comps, HW
 

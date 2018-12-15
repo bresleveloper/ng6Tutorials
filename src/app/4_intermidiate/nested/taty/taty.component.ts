@@ -7,6 +7,7 @@ import { Input, SimpleChange, SimpleChanges ,OnChanges, DoCheck,AfterContentInit
   styleUrls: ['./taty.component.css']
 })
 export class TatyComponent 
+
 implements OnInit, OnChanges, DoCheck,
 AfterContentInit, AfterContentChecked,
 AfterViewInit, AfterViewChecked, OnDestroy {
@@ -20,5 +21,4 @@ AfterViewInit, AfterViewChecked, OnDestroy {
   ngAfterViewInit() { console.log('TatyComponent ngAfterViewInit');  }
   ngAfterViewChecked() { console.log('TatyComponent ngAfterViewChecked'); }
   ngOnDestroy() { console.log('TatyComponent ngOnDestroy');  }
-
 }
