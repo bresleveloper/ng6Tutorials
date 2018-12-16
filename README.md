@@ -27,7 +27,7 @@ TS
 7. `ng add @angular/material`
 8. `ng generate @angular/material:material-dashboard --name 3_material/myDashboard`, go see [ng material schematics](https://material.angular.io/guide/schematics)
 9. `ng generate @angular/material:material-address-form --name 3_material/addForm`
-10. install augury, show, ppt 3.4
+10. install augury, show, ppt 3.4, DEBUG something in browser
 11. view encapsulation, show comp with ppt
 
 # lession 4 - ppt 4-7 - bindings, template, nested comps, life cycle, pipes
@@ -50,7 +50,16 @@ TS
 5. ppt 9.3 - Promise, show comp, HW
 6. Observalbes - do autocomplete, do ppt, HW
 
-# lession 6 - ppt 10 - routing, do comps, HW, how web/url works, LEARN AND MAKE LIFECYCLE
+# lession 6 - ppt 10 - how web/url works, routing, do comps, HW,  LEARN AND MAKE LIFECYCLE
+
+1. how the web works 
+    [image 1](https://www.practicalecommerce.com/wp-content/uploads/2017/04/URL-anatomy2.png)
+    [image 2](https://media.gcflearnfree.org/content/55784768317faa316096bef2_06_10_2015/fullurlending_image2.png)
+2. make project with router
+
+https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example
+
+https://appdividend.com/2018/12/14/angular-7-routing-and-sub-routing-tutorial-with-example/
 
 ppt 9 - services, do comps, HW
 
