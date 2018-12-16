@@ -17,6 +17,9 @@ export class IngaleComponent
   @Output()
   tatyChange = new EventEmitter<string>();
 
+  //@Input()
+  //taty:string
+
   @Input()
   get taty(){
     return this.tatyValue;
