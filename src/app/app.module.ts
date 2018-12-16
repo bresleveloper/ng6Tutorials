@@ -7,7 +7,6 @@ import { Module_2_basics } from './modules/2.module';
 import { Module_3_Mat } from './modules/3.mat.module';
 import { Module_4_Intern } from './modules/4.intern.module';
 import { Module_5_twoWayAdv } from './modules/5.twoWayAdv.module';
-import { ObsyComponent } from './5_twoWayMethods/obsy/obsy.component';
 
 
 
@@ -18,7 +17,7 @@ import { ObsyComponent } from './5_twoWayMethods/obsy/obsy.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ObsyComponent,
+
 
 
 
