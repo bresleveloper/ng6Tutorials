@@ -41,13 +41,15 @@ TS
 1. directives -> do HW, HoverDirective
 2. ppt 7 - pipes, talk, do it all with HW
 3. ppt 8 - @Input/Output, do nested again comps, HW
-4. ppt 9 - services, show lession 2 again with the services
-5. ppt 9.3 - Promise, show comp, HW
-6. Observalbes - do autocomplete, do ppt, HW
+
+-- 6.3, 8
+
 
 # lession 6 - ppt 10 - routing, do comps, HW, how web/url works, LEARN AND MAKE LIFECYCLE
 
-ppt 9 - services, do comps, HW
+4. ppt 9 - services, show lession 2 again with the services
+5. ppt 9.3 - Promise, show comp, HW
+6. Observalbes - do autocomplete, do ppt, HW
 
 -OBS, can use some git raw items for ajax
 
