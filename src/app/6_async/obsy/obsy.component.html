@@ -1,0 +1,41 @@
+<p>
+  obsy works!
+</p>
+
+
+<br>
+<br>
+<br>
+<div>
+  <h2>search with obs</h2>
+  <input (keyup)="searchTerm$.next($event.target.value)">
+
+  <ul>
+    <li *ngFor="let result of results">
+        {{ result }}
+    </li>
+  </ul>
+</div>
+
+
+<br>
+<br>
+<br>
+<div>
+  <h2>fake repeated ajax with obs</h2>
+  <ul>
+    <li *ngFor="let car of vehicles | async">
+        {{ car.name }}
+    </li>
+  </ul>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<div>
+  <h2>final example</h2>
+  do see <a href="https://alligator.io/angular/real-time-search-angular-rxjs/" target="_blank">this</a>
+</div>

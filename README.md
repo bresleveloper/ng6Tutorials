@@ -41,7 +41,7 @@ TS
     [advanced ng-conttent](https://blog.angular-university.io/angular-ng-content/)
 4. directives - 3 types, ppt 6, do it all with HW [6.2.3 bind color property]  ==>> was given as HW
 
-# lession 5 - ppt 6-9 - directives, pipes, @Input/Output, services
+# lession 5 - ppt 6-8 - directives, pipes, @Input/Output, 
 
 1. directives -> do HW, HoverDirective
 2. ppt 7 - pipes, talk, do it all with HW
@@ -50,7 +50,15 @@ TS
 -- 6.3, 8
 
 
-# lession 6 - ppt 10 - how web/url works, routing, do comps, HW,  LEARN AND MAKE LIFECYCLE
+# lession 6 - ppt 9-10 - services, async
+
+1. ppt 9 - services, show lession 2 again with the services
+2. ppt 9.3 - Promise, show comp, HW
+3. Observalbes - do autocomplete, do ppt, HW
+
+-OBS, can use some git raw items for ajax
+
+# lession 7 - ppt 10 - routing, do comps, HW, how web/url works, LEARN AND MAKE LIFECYCLE
 
 1. how the web works 
     [image 1](https://www.practicalecommerce.com/wp-content/uploads/2017/04/URL-anatomy2.png)
@@ -58,16 +66,7 @@ TS
 2. make project with router
 
 https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example
-
 https://appdividend.com/2018/12/14/angular-7-routing-and-sub-routing-tutorial-with-example/
-
-4. ppt 9 - services, show lession 2 again with the services
-5. ppt 9.3 - Promise, show comp, HW
-6. Observalbes - do autocomplete, do ppt, HW
-
--OBS, can use some git raw items for ajax
-
-# lession 7 - ppt 10 - routing, do comps, HW, how web/url works, LEARN AND MAKE LIFECYCLE
 
 ppt 10 - routing, do comps, HW, how web/url works, LEARN AND MAKE LIFECYCLE
 

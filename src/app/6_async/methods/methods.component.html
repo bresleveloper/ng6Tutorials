@@ -1,3 +1,35 @@
 <p>
   methods works!
 </p>
+<div class="central">
+  <span>choose item id and click </span>
+  <br>
+  <input id="itemid"/>
+  <br>
+
+  <button (click)="getNameByCallback()">callback</button>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <button (click)="getNameByPromise()">promise</button>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <button (click)="getNameByHttpClient()">HttpClient</button>
+
+  <br>
+  <span id="itemname"></span>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="forhover" >
+    <p>
+        promiseSomthing
+    </p>
+    <input #inputPromise /><br>
+    <button (click)="promiseSomthing(inputPromise.value)"> click for a promise </button> <br>
+    <div id="whatPromise"></div>
+  </div>

@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 
 import { HoverDirectiveDirective, HighlightDirective } from '../5_twoWayMethods/hover-directive.directive';
 import { LaCompaComponent } from '../5_twoWayMethods/la-compa/la-compa.component';
-import { ObsyComponent } from '../5_twoWayMethods/obsy/obsy.component';
 import { MypipePipe } from '../5_twoWayMethods/mypipe.pipe';
 
 
@@ -14,7 +13,6 @@ import { MypipePipe } from '../5_twoWayMethods/mypipe.pipe';
     HoverDirectiveDirective,
     LaCompaComponent,
     HighlightDirective,
-    ObsyComponent,
     MypipePipe,
 
   ],
@@ -31,7 +29,6 @@ import { MypipePipe } from '../5_twoWayMethods/mypipe.pipe';
     HoverDirectiveDirective,
     LaCompaComponent,
     HighlightDirective,
-    ObsyComponent,
     MypipePipe,
 
 

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ng7jonny async</title>
+</head>
+<body>
+
+
+    <p>
+        methods works!
+    </p>
+    <div class="central">
+      <span>choose item id and click </span>
+      <br>
+      <input id="itemid"/>
+      <br>
+    
+      <button onclick="getNameByCallback()">callback</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button onclick="getNameByPromise()">promise</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button onclick="getNameByRxJs()">RxJs</button>
+    
+      <br>
+      <span id="itemname"></span>
+    </div>
+
+<script>
+
+  getId = ()=> document.getElementById("itemid").value;
+
+  let xhr;
+  getNameByCallback = ()=>{
+    xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = ajaxcallback;
+    xhr.open('GET', 'https://raw.githubusercontent.com/bresleveloper/ng6Tutorials/master/src/app/6_async/data.json');
+    xhr.send();
+  }
+
+  ajaxcallback=(event) =>{
+    console.log(xhr.readyState + ' - ' + xhr.status)
+    if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+      let response = JSON.parse(xhr.responseText);
+      let arr = response["response"]["data"];
+      let item = arr.find(x => x["id"] == this.getId())
+      if (!item){
+        document.getElementById("itemname").innerHTML = "not found"
+      } else {
+        document.getElementById("itemname").innerHTML = item["name"]
+      }
+    }
+  }
+
+  makePromiseAsyncAction =(method, url)=>{
+    //or return new Promise...
+    let p = new Promise((resolve, reject) =>{
+      xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = (event) =>{
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+          resolve(JSON.parse(xhr.responseText));
+        } 
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 200) {
+          reject(xhr.status) 
+        }
+      };
+      xhr.open(method, url);
+      xhr.send();
+    });
+    return p;
+  }
+
+  getNameByPromise =()=>{
+    let p = makePromiseAsyncAction('GET', 'https://raw.githubusercontent.com/bresleveloper/ng6Tutorials/master/src/app/6_async/data.json')
+    let successta = (json)=>{
+      console.log('success')
+
+      let arr = json["response"]["data"];
+      let item = arr.find(x => x["id"] == this.getId())
+      if (!item){
+        document.getElementById("itemname").innerHTML = "not found"
+      } else {
+        document.getElementById("itemname").innerHTML = item["name"]
+      }
+    }
+
+    p.then(successta, () =>console.error('error'));
+  }
+
+</script>
+
+</body>
+</html>
