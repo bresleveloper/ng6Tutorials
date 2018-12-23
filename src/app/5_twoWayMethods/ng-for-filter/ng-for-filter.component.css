@@ -1,0 +1,6 @@
+.wrapper{
+    text-align: center
+}
+
+.wrapper ul {width: 50%; margin: auto; padding: 15px;    list-style: none;}
+.wrapper ul li {border: 2px dotted darkblue; padding: 2px;}

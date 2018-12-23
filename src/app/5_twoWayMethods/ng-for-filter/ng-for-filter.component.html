@@ -1,0 +1,15 @@
+<p>
+  ng-for-filter works!
+</p>
+
+
+<div class="wrapper">
+    <input [(ngModel)]="searchValue">
+    <div>
+        <ul>
+            <li *ngFor="let b of books | filterBooks:searchValue">
+                {{b.id}} | {{b.year}} <br> {{b.title}}<br>{{b.author}}
+            </li>
+        </ul>
+    </div>
+</div>

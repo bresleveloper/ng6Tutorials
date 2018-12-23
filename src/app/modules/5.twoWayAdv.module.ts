@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { HoverDirectiveDirective, HighlightDirective } from '../5_twoWayMethods/hover-directive.directive';
 import { LaCompaComponent } from '../5_twoWayMethods/la-compa/la-compa.component';
 import { MypipePipe } from '../5_twoWayMethods/mypipe.pipe';
+import { NgForFilterComponent, BookFilterPipe } from '../5_twoWayMethods/ng-for-filter/ng-for-filter.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MypipePipe } from '../5_twoWayMethods/mypipe.pipe';
     LaCompaComponent,
     HighlightDirective,
     MypipePipe,
-
+    NgForFilterComponent,
+    BookFilterPipe
   ],
 
   imports: [
@@ -30,7 +32,8 @@ import { MypipePipe } from '../5_twoWayMethods/mypipe.pipe';
     LaCompaComponent,
     HighlightDirective,
     MypipePipe,
-
+    NgForFilterComponent,
+    BookFilterPipe
 
 
 

@@ -45,7 +45,8 @@ TS
 
 1. directives -> do HW, HoverDirective
 2. ppt 7 - pipes, talk, do it all with HW
-3. ppt 8 - @Input/Output, do nested again comps, HW
+3. do filter pipe for *ngFor
+4. ppt 8 - @Input/Output, do nested again comps, HW
 
 -- 6.3, 8
 
