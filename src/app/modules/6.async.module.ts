@@ -5,12 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ObsyComponent } from '../6_async/obsy/obsy.component';
 import { MethodsComponent } from '../6_async/methods/methods.component';
+import { CallbackTargilComponent } from '../6_async/callback-targil/callback-targil.component';
 
 
 @NgModule({
   declarations: [
     ObsyComponent,
-    MethodsComponent
+    MethodsComponent,
+    CallbackTargilComponent
   ],
 
   imports: [
@@ -22,7 +24,8 @@ import { MethodsComponent } from '../6_async/methods/methods.component';
 
     HttpClientModule,
     ObsyComponent,
-    MethodsComponent
+    MethodsComponent,
+    CallbackTargilComponent
 
 
 
