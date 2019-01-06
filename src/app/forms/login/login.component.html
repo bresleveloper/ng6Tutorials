@@ -1,0 +1,15 @@
+
+
+
+<form [formGroup]="loginForm" (ngSubmit)="tryLogin()">
+
+    <input id="user" [formControl]="loginForm.controls.user"/>
+    <br><br>
+    <input id="pass" [formControl]="loginForm.controls.pass"/>
+    <br><br>
+
+
+    <button type="submit"
+
+        [disabled]="!loginForm.valid">subi</button>
+</form>
